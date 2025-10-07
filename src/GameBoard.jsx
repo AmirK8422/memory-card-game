@@ -114,7 +114,7 @@ const GameBoard = () => {
 
   return (
     <>
-      <div className="winner">
+      <div className="winner dark-mode">
         <h1>memory game</h1>
         {win === 8 ? <h1>🎉You Won🎉</h1> : <h1>moves: {moves}</h1>}
         <div className="buyyon">

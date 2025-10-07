@@ -12,7 +12,7 @@ const EachCard = ({ card, checkChoices, flipped, disabled }) => {
 
   return (
     <>
-      <div className="card">
+      <div className="card dark-mode">
         <div className={flipped ? "flipped" : ""}>
           <img src={card.image} alt={card.Esm} className="jolou" />
           <img
