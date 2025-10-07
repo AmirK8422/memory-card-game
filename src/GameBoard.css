@@ -54,3 +54,14 @@
 
   transform: translateY(-5px);
 }
+
+@media (max-width: 600px) {
+  .card-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
