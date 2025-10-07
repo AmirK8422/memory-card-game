@@ -1,0 +1,56 @@
+.restartBtn {
+  all: unset;
+}
+.restartBtn:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.kol {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+}
+.card img {
+  display: block;
+  border-radius: 6px;
+  width: 150px;
+  justify-content: center;
+}
+
+.card .jolou {
+  transform: rotateY(90deg);
+  position: absolute;
+  transition: all ease-in 0.3s;
+}
+.flipped .jolou {
+  transform: rotateY(0deg);
+  transition-delay: 0.3s;
+}
+
+.card .posht {
+  transition-delay: 0.3s;
+  transition: all ease-in 0.3s;
+}
+.flipped .posht {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+
+.card:hover {
+  cursor: pointer;
+
+  transform: translateY(-5px);
+}

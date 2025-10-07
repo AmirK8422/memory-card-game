@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+  padding: 5px;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.card {
+  border: solid 3px black;
+  border-radius: 10px;
+}
+.THEMEmode {
+  all: unset;
+}
+
+.THEMEmode:hover {
+  cursor: pointer;
+}
+.thema {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: auto;
+}
+
+.winner {
+  border: solid 2px black;
+
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px 5px rgba(66, 216, 233, 0.685);
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
