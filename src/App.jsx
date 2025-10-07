@@ -9,6 +9,7 @@ function App() {
         <GameBoard />
         <br />
         <ThemeToggle />
+        <br />
       </ThemeProvider>
     </>
   );
